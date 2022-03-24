@@ -58,11 +58,11 @@ for (var key in wayne) {
 for (let i = 0; i < personale.length; i++) {
 
   document.getElementById("cards").innerHTML += `   
-  <div class="card p-2 my-2">
+  <div class="card p-2">
               <img src="./asset/img/${personale[i]["img"]}" class="card-img-top" alt="...">
-              <div class="card-body">
-                 <p class="card-">${personale[i]["nome"]}</p>
-                 <p class="card-">${personale[i]["posizione"]}</p>
+              <div class="card-body ">
+                 <p class="card- t-color">${personale[i]["nome"]}</p>
+                 <p class="card- t-color">${personale[i]["posizione"]}</p>
               </div>
             </div>        
          `
